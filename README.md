@@ -10,12 +10,17 @@ use Illuminate\Pagination\Paginator;</strong>"</span>
 
 <h1>3º passo<h1>
 
+Depois localize o seguinte trecho: "<strong> public function boot()<br>
+    {<br>
+    //
+    }<br></strong>"
+    E adicione este trecho no lugar das barras de comentários "<strong>Paginator::useBootstrap(); </strong><br>"
+    E ficara assim:<br>
+    "<strong> public function boot()<br>
+    {<br>
+    //
+    }<br></strong>"
+
 <h1>4º passo<h1>
 
-<h1>5º passo<h1>
-
-<h1>6º passo<h1>
-
-<h1>7º passo<h1>
-
-<h1>8º passo<h1>
+Agora é só testar, você também pode baixar o arquivo já pronto e intalar no local indicado "seuprojeto\app\Providers\" copie e substitua o arquivo.
